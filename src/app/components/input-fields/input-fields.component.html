@@ -1,0 +1,259 @@
+   
+    <div class="container pt-5"> 
+        <div class="w-75 m-auto">
+            <form>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="email">Email <span>*</span></label>
+                            <input type="text" class="form-control email" id="email" aria-describedby="emailHelp" placeholder="olivia@untitledui.com">
+                            <small id="emailHelp" class="form-text text-muted">This is a hint text to help user.</small>
+                        </div>
+                        <div class="form-group disabled">
+                            <label for="email">Email <span>*</span></label>
+                            <input type="text" class="form-control email disabled" id="email" aria-describedby="emailHelp" placeholder="olivia@untitledui.com" disabled>
+                            <small id="emailHelp" class="form-text text-muted">This is a hint text to help user.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control email" id="email" aria-describedby="emailHelp" value="olivia@untitledui.com" readonly>
+                            <small id="emailHelp" class="form-text text-muted">This is a hint text to help user.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email <span>*</span></label>
+                            <input type="text" class="form-control email error" id="email" aria-describedby="emailHelp" value="olivia@untitledui.com">
+                            <small id="emailHelp" class="form-text text-muted error">This is a hint text to help user.</small>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="mobile">Phone number <span>*</span></label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <select class="country-code" id="sel1" name="sellist1">
+                                        <option selected>US</option>
+                                        <option>UK</option>
+                                        <option>IND</option>
+                                    </select>
+                                </div>
+                                <input type="text" class="form-control mobile" id="mobile"   placeholder="+1 (555) 000-0000">
+                            </div>
+                            <small id="mobileHelp" class="form-text text-muted">This is a hint text to help user.</small>
+                        </div>
+                        <div class="form-group disabled">
+                            <label for="mobile">Phone number<span>*</span></label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <select class="country-code disabled" id="sel1" name="sellist1" >
+                                        <option selected>US</option>
+                                        <option>UK</option>
+                                        <option>IND</option>
+                                    </select>
+                                </div>
+                                <input type="text" class="form-control mobile" id="mobile"   placeholder="+1 (555) 000-0000" disabled>
+                            </div>
+                            <small id="mobileHelp" class="form-text text-muted">This is a hint text to help user.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="mobile">Phone number </label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <select class="country-code" id="sel1" name="sellist1">
+                                        <option selected>US</option>
+                                        <option>UK</option>
+                                        <option>IND</option>
+                                    </select>
+                                </div>
+                                <input type="text" class="form-control mobile" id="mobile"   placeholder="+1 (555) 000-0000" readonly>
+                            </div>
+                            <small id="mobileHelp" class="form-text text-muted">This is a hint text to help user.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="mobile">Phone number <span>*</span></label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <select class="country-code" id="sel1" name="sellist1">
+                                        <option selected>US</option>
+                                        <option>UK</option>
+                                        <option>IND</option>
+                                    </select>
+                                </div>
+                                <input type="text" class="form-control mobile" id="mobile"   placeholder="+1 (555) 000-0000">
+                            </div>
+                            <small id="mobileHelp" class="form-text text-muted error">This is a hint text to help user.</small>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="amount">Sale Amount <span>*</span></label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                <span class="input-group-text">$</span>
+                                </div>
+                                <input type="text" class="form-control amount" id="amount"   placeholder="+1 (555) 000-0000">
+                            </div>
+                            <small id="amountHelp" class="form-text text-muted">This is a hint text to help user.</small>
+                        </div>
+                        <div class="form-group disabled">
+                            <label for="amount">Sale Amount<span>*</span></label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                <span class="input-group-text">$</span>
+                                </div>
+                                <input type="text" class="form-control amount disabled" id="amount"   placeholder="+1 (555) 000-0000" disabled>
+                                </div>
+                            <small id="amountHelp" class="form-text text-muted">This is a hint text to help user.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="amount">Sale Amount </label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                <span class="input-group-text">$</span>
+                                </div>
+                                <input type="text" class="form-control amount" id="amount"  value="+1 (555) 000-0000" readonly>
+                            </div>
+                            <small id="amountHelp" class="form-text text-muted">This is a hint text to help user.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="amount">Sale Amount <span>*</span></label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                <span class="input-group-text error">$</span>
+                                </div>
+                                <input type="text" class="form-control amount error" id="amount" value="+1 (555) 000-0000">
+                            </div>
+                            <small id="amountHelp" class="form-text text-muted error">This is a hint text to help user.</small>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="website">Website <span>*</span></label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon3">http://</span>
+                                </div>
+                                <input type="text" class="form-control website" id="website"   placeholder="www.untitledui.com">
+                            </div>
+                            <small id="websiteHelp" class="form-text text-muted">This is a hint text to help user.</small>
+                        </div>
+                        <div class="form-group disabled">
+                            <label for="website">Website <span>*</span></label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon3">http://</span>
+                                </div>
+                                <input type="text" class="form-control website disabled" id="website"   placeholder="www.untitledui.com" disabled>
+                            </div>
+                            <small id="websiteHelp" class="form-text text-muted">This is a hint text to help user.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="website">Website </label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon3">http://</span>
+                                </div>
+                                <input type="text" class="form-control website" id="website"  value="www.untitledui.com" readonly>
+                            </div>
+                            <small id="websiteHelp" class="form-text text-muted">This is a hint text to help user.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="website">Website <span>*</span></label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon3">http://</span>
+                                </div>
+                                <input type="text" class="form-control website error" id="website" value="www.untitledui.com">
+                            </div>
+                            <small id="websiteHelp" class="form-text text-muted error">This is a hint text to help user.</small>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="users">Users <span>*</span></label>
+                            <input type="text" class="form-control users" id="users" aria-describedby="usersHelp" placeholder="olivia@untitledui.com">
+                            <small id="usersHelp" class="form-text text-muted">This is a hint text to help user.</small>
+                        </div>
+                        <div class="form-group disabled">
+                            <label for="users">Users <span>*</span></label>
+                            <input type="text" class="form-control users disabled" id="users" aria-describedby="usersHelp" placeholder="olivia@untitledui.com" disabled>
+                            <small id="usersHelp" class="form-text text-muted">This is a hint text to help user.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="users">Users</label>
+                            <input type="text" class="form-control users" id="users" aria-describedby="usersHelp" value="olivia@untitledui.com" readonly>
+                            <small id="usersHelp" class="form-text text-muted">This is a hint text to help user.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="users">Users <span>*</span></label>
+                            <input type="text" class="form-control users error" id="users" aria-describedby="usersHelp" value="olivia@untitledui.com">
+                            <small id="usersHelp" class="form-text text-muted error">This is a hint text to help user.</small>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="websiteCopy">Website <span>*</span></label>
+                            <div class="input-group">
+                                <input type="text" class="form-control websiteCopy" id="websiteCopy"   placeholder="www.untitledui.com">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon-copy"><img [src]="isDarkMode ? 'assets/images/copy-icon-dark.svg' : 'assets/images/copy-icon.svg'"> copy</span>
+                                </div>
+                            </div>
+                            <small id="websiteCopyHelp" class="form-text text-muted">This is a hint text to help user.</small>
+                        </div>
+                        <div class="form-group disabled">
+                            <label for="websiteCopy">Website <span>*</span></label>
+                            <div class="input-group">
+                                <input type="text" class="form-control website disabled" id="websiteCopy"   placeholder="www.untitledui.com" disabled>
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon-copy"><img [src]="isDarkMode ? 'assets/images/copy-icon-dark.svg' : 'assets/images/copy-icon.svg'">copy</span>
+                                </div>
+                            </div>
+                            <small id="websiteCopyHelp" class="form-text text-muted">This is a hint text to help user.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="websiteCopy">Website </label>
+                            <div class="input-group">
+                                <input type="text" class="form-control websiteCopy" id="websiteCopy"  value="www.untitledui.com" readonly>
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon-copy"> <img [src]="isDarkMode ? 'assets/images/copy-icon-dark.svg' : 'assets/images/copy-icon.svg'">copy</span>
+                                </div>
+                            </div>
+                            <small id="websiteCopyHelp" class="form-text text-muted">This is a hint text to help user.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="websiteCopy">Website <span>*</span></label>
+                            <div class="input-group">
+                                <input type="text" class="form-control website error" id="websiteCopy" value="www.untitledui.com">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon-copy"><img [src]="isDarkMode ? 'assets/images/copy-icon-dark.svg' : 'assets/images/copy-icon.svg'">copy</span>
+                                </div>
+                            </div>
+                            <small id="websiteCopyHelp" class="form-text text-muted error">This is a hint text to help user.</small>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="textBox">Text Box <span>*</span></label>
+                            <textarea type="text" class="form-control textBox" id="textBox" aria-describedby="textBoxHelp" placeholder="start typing..." rows="5"></textarea>
+                            <small id="textBoxHelp" class="form-text text-muted">This is a hint text to help user.</small>
+                        </div>
+                        <div class="form-group disabled">
+                            <label for="textBox">Text Box <span>*</span></label>
+                            <textarea type="text" class="form-control textBox disabled" id="textBox" aria-describedby="textBoxHelp" placeholder="start typing..." disabled rows="5"> Lorem ipsum dolor sit amet consectetur. Non tincidunt leo cursus nisi suspendisse tellus fringilla libero aliquam. Orci diam volutpat sem id quis arcu morbi natoque viverra. Sed quam quis amet aliquam a blandit |</textarea>
+                            <small id="textBoxHelp" class="form-text text-muted">This is a hint text to help user.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="textBox">Text Box</label>
+                            <textarea type="text" class="form-control textBox" id="textBox" aria-describedby="textBoxHelp" readonly rows="5"> Lorem ipsum dolor sit amet consectetur. Non tincidunt leo cursus nisi suspendisse tellus fringilla libero aliquam. Orci diam volutpat sem id quis arcu morbi natoque viverra. Sed quam quis amet aliquam a blandit |</textarea>
+                            <small id="textBoxHelp" class="form-text text-muted">This is a hint text to help user.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="textBox">Text Box <span>*</span></label>
+                            <textarea type="text" class="form-control textBox error" id="textBox" aria-describedby="textBoxHelp" rows="5"> Lorem ipsum dolor sit amet consectetur. Non tincidunt leo cursus nisi suspendisse tellus fringilla libero aliquam. Orci diam volutpat sem id quis arcu morbi natoque viverra. Sed quam quis amet aliquam a blandit |</textarea>
+                            <small id="textBoxHelp" class="form-text text-muted error">This is a hint text to help user.</small>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>

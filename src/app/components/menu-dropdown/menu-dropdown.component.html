@@ -1,0 +1,43 @@
+
+    <div class="container pt-5">
+        <div class="w-75 m-auto">
+            <h2 class="mb-4">List Items</h2>
+            <div class="row">
+                <div class="col-4">
+                    <ul class="list-group ge-list">
+                        <li class="list-group-item ge-list-item-head">
+                            <p class="ge-list-title">Table fillers</p>
+                            <p class="ge-list-subtitle">Supporting text</p>
+                        </li>
+                        <li *ngFor="let item of menuList; let i = index" class="list-group-item ge-list-item" [ngClass]="{'selected': item.selected}">
+                            <div class="custom-control ge-custom-checkbox ge-check-sm">
+                                <input type="checkbox" class="custom-control-input" id="customCheck{{i}}" (change)="itemSelect(item)">
+                                <label class="custom-control-label" for="customCheck{{i}}">{{item.title}}</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <!-- <div class="dropdown ge-dropdown">
+                        <input type="search" id="ge-search" class="ge-list-search form-control dropdown-toggle" name="ge-search" placeholder="Search" data-toggle="dropdown" aria-haspopup="true"  data-flip="false" aria-expanded="false">
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div> -->
+                    <ul class="list-group ge-list">
+                        <li class="list-group-item ge-list-item-search">
+                            <input type="search" id="ge-search" class="ge-list-search" name="ge-search" placeholder="Search">
+                        </li>
+                        <li *ngFor="let item of menuList2; let i = index" class="list-group-item ge-list-item" [ngClass]="{'selected': item.selected}">
+                            <div class="custom-control ge-custom-checkbox ge-check-sm">
+                                <input type="checkbox" class="custom-control-input" id="customCheck{{item.id}}" (change)="itemSelect(item)">
+                                <label class="custom-control-label" for="customCheck{{item.id}}">{{item.title}}</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,17 @@
+<div class="main-container">
+    <div class="pt-5">
+
+        <main class="m-auto">
+            <div class="row">
+                <div class="w-75 m-auto pb-4">
+                    <button class="btn ge-btn-primary1" style="padding-right: 50px; float: right;" (click)="home()">Home</button>
+                    <div class="custom-control ge-toggle-switch toggle-sm" style="padding-right: 50px; float: right;">
+                        <input type="checkbox" class="custom-control-input" id="customSwitch1" (change)="darkMode()">
+                        <label class="custom-control-label" for="customSwitch1" >Dark Mode</label>
+                    </div>
+                </div>
+            </div>
+            <router-outlet />
+        </main>
+    </div>
+</div>

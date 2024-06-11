@@ -1,0 +1,38 @@
+.datepicker-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .calendar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+  }
+  
+  .weekdays, .days {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .weekdays span, .days span {
+    width: calc(100% / 7);
+    text-align: center;
+    padding: 0.5em 0;
+  }
+  
+  .days .day {
+    cursor: pointer;
+  }
+  
+  .days .day.selected {
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+  }
+  
+  .day.empty {
+    visibility: hidden;
+  }
+  

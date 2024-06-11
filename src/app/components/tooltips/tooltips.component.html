@@ -1,0 +1,94 @@
+
+    <div class="container pt-5">
+        <div class="w-75 m-auto">
+            <h2>Tooltip</h2>
+            <div class="gap-12">
+                <button type="button" class="btn ge-btn-primary1" triggers="click" containerClass="sm-tooltip-withoutArrow"  placement="top" tooltip="This is a tooltip">
+                    tooltip top withou arrow
+                </button>
+                <button type="button" class="btn ge-btn-primary1" containerClass="sm-tooltip"  placement="top" tooltip="This is a tooltip">
+                    tooltip on top
+                </button>
+                <button type="button" class="btn ge-btn-primary1" containerClass="sm-tooltip-customtopL"  placement="top left" tooltip="This is a tooltip">
+                    tooltip on top left
+                </button>
+                <button type="button" class="btn ge-btn-primary1" containerClass="sm-tooltip-customtopR" placement="top right" tooltip="This is a tooltip">
+                    tooltip on top right
+                </button>
+                <button type="button" class="btn ge-btn-primary1"  placement="right" tooltip="This is a tooltip">
+                    tooltip on right
+                </button>
+                <button type="button" class="btn ge-btn-primary1"  placement="bottom" tooltip="This is a tooltip">
+                    tooltip on bottom
+                </button>
+                <button type="button" class="btn ge-btn-primary1"  placement="left" tooltip="This is a tooltip">
+                    tooltip on left
+                </button>
+                
+            </div>
+            <h2>Custom Tooltip</h2>
+            <div class="mt-4">
+                <button type="button" class="btn ge-btn-primary1" containerClass="md-tooltip-withoutArrow"  placement="top" [tooltip]="mdTopTooltipWithoutArrow">
+                    tooltip on top
+                </button>
+                <ng-template #mdTopTooltipWithoutArrow>
+                    <p class="tooltip-title">This is a tooltip</p>
+                    <p class="tooltip-content">Tooltips are used to describe or identify an element. In most scenarios, tooltips help the user understand meaning, function or alt-text.</p>
+                </ng-template>
+            </div>
+            <div class="mt-4">
+                <button type="button" class="btn ge-btn-primary1" containerClass="md-tooltip"  placement="top" [tooltip]="mdTopTooltipTop">
+                    tooltip on top
+                </button>
+                <ng-template #mdTopTooltipTop>
+                    <p class="tooltip-title">This is a tooltip</p>
+                    <p class="tooltip-content">Tooltips are used to describe or identify an element. In most scenarios, tooltips help the user understand meaning, function or alt-text.</p>
+                </ng-template>
+            </div>
+            <div class="mt-4">
+                <button type="button" class="btn ge-btn-primary1" containerClass="md-tooltip-topL"  placement="top left" [tooltip]="mdTopTooltipTopLeft">
+                    tooltip on top left
+                </button>
+                <ng-template #mdTopTooltipTopLeft>
+                    <p class="tooltip-title">This is a tooltip</p>
+                    <p class="tooltip-content">Tooltips are used to describe or identify an element. In most scenarios, tooltips help the user understand meaning, function or alt-text.</p>
+                </ng-template>
+            </div>
+            <div class="mt-4">
+                <button type="button" class="btn ge-btn-primary1" containerClass="md-tooltip-topR"  placement="top right" [tooltip]="mdTopTooltipTopRight">
+                    tooltip on top Right
+                </button>
+                <ng-template #mdTopTooltipTopRight>
+                    <p class="tooltip-title">This is a tooltip</p>
+                    <p class="tooltip-content">Tooltips are used to describe or identify an element. In most scenarios, tooltips help the user understand meaning, function or alt-text.</p>
+                </ng-template>
+            </div>
+            <div class="mt-4">
+                <button type="button" class="btn ge-btn-primary1" containerClass="md-tooltip-L"  placement="left" [tooltip]="mdTopTooltipLeft">
+                    tooltip on Left
+                </button>
+                <ng-template #mdTopTooltipLeft>
+                    <p class="tooltip-title">This is a tooltip</p>
+                    <p class="tooltip-content">Tooltips are used to describe or identify an element. In most scenarios, tooltips help the user understand meaning, function or alt-text.</p>
+                </ng-template>
+            </div>
+            <div class="mt-4">
+                <button type="button" class="btn ge-btn-primary1" containerClass="md-tooltip-R"  placement="right" [tooltip]="mdTopTooltipRight">
+                    tooltip on Right
+                </button>
+                <ng-template #mdTopTooltipRight>
+                    <p class="tooltip-title">This is a tooltip</p>
+                    <p class="tooltip-content">Tooltips are used to describe or identify an element. In most scenarios, tooltips help the user understand meaning, function or alt-text.</p>
+                </ng-template>
+            </div>
+            <div class="mt-4">
+                <button type="button" class="btn ge-btn-primary1" containerClass="md-tooltip-B"  placement="bottom" [tooltip]="mdTopTooltipBottom">
+                    tooltip on Right
+                </button>
+                <ng-template #mdTopTooltipBottom>
+                    <p class="tooltip-title">This is a tooltip</p>
+                    <p class="tooltip-content">Tooltips are used to describe or identify an element. In most scenarios, tooltips help the user understand meaning, function or alt-text.</p>
+                </ng-template>
+            </div>
+        </div>
+    </div>

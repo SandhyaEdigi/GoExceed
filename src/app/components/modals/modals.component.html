@@ -1,0 +1,101 @@
+
+    <div class="container pt-5">
+        <div class="w-75 m-auto">
+            <h2>Modals</h2>
+            <div class="gap-12">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn ge-btn-primary1" data-toggle="modal" data-target="#exampleModalCenter">
+                    Delete Modal
+                </button>
+                <button type="button" class="btn ge-btn-primary1" data-toggle="modal" data-target="#exampleModalCenterHeader">
+                    Delete Modal with Header
+                </button>
+                <button type="button" class="btn ge-btn-primary1" data-toggle="modal" data-target="#exampleModalCenterAlert">
+                    Delete Modal with Alert
+                </button>
+                <button type="button" class="btn ge-btn-primary1" data-toggle="modal" data-target="#exampleModalCenterIcon">
+                    Delete Modal with Icon
+                </button>
+            </div>  
+            
+            <!-- Modal -->
+            <div class="modal fade ge-modal" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content ge-modal-content">
+                        <div class="modal-body ge-modal-body">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true"><img src="assets/images/modal-close.svg"></span>
+                            </button>
+                            <div class="text-center">
+                                <img src="assets/images/modal-copy.svg" class="mb-3" alt="">
+                                <p class="modal-title">Delete Modal</p>
+                            </div>
+                            <p class="sub-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="modal-footer ge-modal-footer">
+                            <button type="button" class="btn ge-btn-secondary-text btn-md" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn ge-btn-primary1">Save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- modal-alert -->
+            <div class="modal fade ge-modal" id="exampleModalCenterAlert" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content ge-modal-content">
+                    <div class="modal-body ge-modal-body text-left">
+                        <p class="ge-modal-subtitle">Dialogs inform users about a task and can contain</p>
+                        <div class="alert ge-alert-error alert-dismissible fade show" role="alert">
+                            <img [src]="isDarkMode ? 'assets/images/alert-error-dark.svg': 'assets/images/alert-error.svg'">
+                            A simple content alert—check it out!
+                        </div>
+                        <p class="sub-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="modal-footer ge-modal-footer">
+                        <button type="button" class="btn ge-btn-secondary-text btn-md" data-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn ge-btn-primary1 error ge-btn-icon"><img src="assets/images/delete-icon.svg" alt=""> Delete</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- modal -->
+            <div class="modal fade ge-modal" id="exampleModalCenterHeader" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content ge-modal-content">
+                    <div class="modal-header ge-modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Delete Modal</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><img src="assets/images/modal-close.svg"></span>
+                        </button>
+                    </div>
+                    <div class="modal-body ge-modal-body">
+                        <p class="sub-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="modal-footer ge-modal-footer">
+                        <button type="button" class="btn ge-btn-secondary-text btn-md" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn ge-btn-primary1">Save</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- Delete with Icon -->
+            <div class="modal fade ge-modal" id="exampleModalCenterIcon" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content ge-modal-content">
+                        <div class="modal-body ge-modal-body">
+                            <div class="text-center">
+                                <img src="assets/images/delete-img.svg" class="mb-3" alt="">
+                                <p class="modal-title">Delete Modal</p>
+                            </div>
+                            <p class="sub-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="modal-footer ge-modal-footer">
+                            <button type="button" class="btn ge-btn-secondary-text btn-md" data-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn ge-btn-primary1 error ge-btn-icon"><img src="assets/images/delete-icon.svg" alt=""> Delete</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

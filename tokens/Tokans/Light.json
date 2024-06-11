@@ -1,0 +1,568 @@
+{
+  "theme":"light",
+  "Background": {
+    "BG Layer 1": {
+      "value": "{Base-white}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "BG Layer 2": {
+      "value": "{Gray 20}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "BG Layer 3": {
+      "value": "{Gray 30}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    }
+  },
+  "Text": {
+    "Text Primary": {
+      "value": "{Gray 100}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Text Secondary": {
+      "value": "{Gray 80}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Text primary: BG": {
+      "value": "{Base-white}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Text Disabled": {
+      "value": "{Gray 50}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light",
+      "oldValue": "{Gray 60}"
+    },
+    "Text secondary: BG": {
+      "value": "{Gray 40}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    }
+  },
+  "Button": {
+    "Button Primary1 : Bg": {
+      "value": "{Brand-secondary 60 (Base)}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Button Primary1 : Text": {
+      "value": "{Base-white}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Button Secondary : Stroke": {
+      "value": "{Brand-secondary 60 (Base)}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Button Secondary : Text": {
+      "value": "{Brand-secondary 60 (Base)}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Button Tertiary : Text only": {
+      "value": "{Gray 90}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Button Primary1 : Icon": {
+      "value": "{Gray 10}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Button Disabled": {
+      "value": "{Gray 20}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light",
+      "oldValue": "{Gray 40}"
+    },
+    "Button Disabled Text": {
+      "value": "{Gray 50}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light",
+      "oldValue": "{Gray 60}"
+    },
+    "Button Primary : Hover": {
+      "value": "{Brand-secondary 50}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Button Secondary : Icon": {
+      "value": "{Brand-secondary 60 (Base)}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Button Secondary : Hover": {
+      "value": "{Brand-secondary 80}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Button Primary : Error bg": {
+      "value": "{Error 30}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Button Primary : Error text": {
+      "value": "{Error 50}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Button Secondary : Error": {
+      "value": "{Error 30}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Button Primary2 : Bg": {
+      "value": "{Brand-primary 60 (Base)}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Button Primary2 : Text": {
+      "value": "{Base-black}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Button Primary2 : Icon": {
+      "value": "{Gray 90}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Button Primary2 : Hover": {
+      "value": "{Brand-primary 50}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Button Gray": {
+      "value": "{Gray 90}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Button Gray Text": {
+      "value": "{Gray 10}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Button Gray Hover": {
+      "value": "{Gray 100}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    }
+  },
+  "Stroke": {
+    "Stroke Default": {
+      "value": "{Gray 50}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Stroke Active": {
+      "value": "{Brand-primary 60 (Base)}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Stroke Gray": {
+      "value": "{Gray 90}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Stroke Light": {
+      "value": "{Gray 40}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Stroke Default light": {
+      "value": "{Gray 30}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Stroke Heavy Contrast": {
+      "value": "{Gray 90}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Stroke Light Contrast": {
+      "value": "{Gray 40}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    }
+  },
+  "Icon": {
+    "Icon Primary": {
+      "value": "{Gray 100}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Icon Primary : BG": {
+      "value": "{Dark Opacity 4%}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light",
+      "oldValue": "{Dark Opacity 40}"
+    },
+    "Icon secondary": {
+      "value": "{Gray 80}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Icon Secondary : BG": {
+      "value": "{Dark Opacity 2%}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light",
+      "oldValue": "{Dark Opacity 50}"
+    },
+    "Icon Disabled": {
+      "value": "{Gray 60}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    }
+  },
+  "States : Dropdowns & Option": {
+    "Active": {
+      "value": "{Brand-primary 60 (Base)}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Selected bg": {
+      "value": "{Brand-primary 10}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Hover bg": {
+      "value": "{Gray 20}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Active light": {
+      "value": "{Brand-primary 30}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    }
+  },
+  "Chips": {
+    "Chips Outline": {
+      "value": "{Gray 30}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Chips filled": {
+      "value": "{Gray 20}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    }
+  },
+  "Toggle,radio & checkbox": {
+    "Bg": {
+      "value": "{Gray 40}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Inactive": {
+      "value": "{Gray 50}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Active": {
+      "value": "{Brand-secondary 60 (Base)}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    }
+  },
+  "Informative": {
+    "Error": {
+      "value": "{Error 30}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Success": {
+      "value": "{Success 20}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Warning": {
+      "value": "{Warning 20}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Info": {
+      "value": "{Info 30}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Default": {
+      "value": "{Gray 80}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    }
+  },
+  "Alerts": {
+    "Error Fill": {
+      "value": "{Error 50}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Error Text & Icon": {
+      "value": "{Error 30}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Success Fill": {
+      "value": "{Success 50}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Success Text & Icon": {
+      "value": "{Success 20}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Warning Fill": {
+      "value": "{Warning 50}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Warning Text & Icon": {
+      "value": "{Warning 10}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Info Fill": {
+      "value": "{Info 10}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "InfoText & Icon 4": {
+      "value": "{Info 50}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Primary fill": {
+      "value": "{Brand-primary 20}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Primary Text & Icon": {
+      "value": "{Brand-primary 80}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Gray fill": {
+      "value": "{Gray 30}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Gray Text & Icon": {
+      "value": "{Text.Text Primary}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    }
+  },
+  "Tooltip": {
+    "Bg": {
+      "value": "{Brand-secondary 10}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    }
+  },
+  "Table": {
+    "Table : Pattern 2": {
+      "value": "{Brand-secondary 10}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    }
+  },
+  "Opacity": {
+    "Dark 80%": {
+      "value": "{Dark Opacity 10}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Dark 60%": {
+      "value": "{Dark Opacity 20}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Dark 40%": {
+      "value": "{Dark Opacity 30}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Dark 20%": {
+      "value": "{Dark Opacity 40}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Dark 8%": {
+      "value": "{Dark Opacity 50}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Light 80%": {
+      "value": "{Light Opacity 10}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Light 60%": {
+      "value": "{Light Opacity 20}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Light 40%": {
+      "value": "{Light Opacity 30}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Light 20%": {
+      "value": "{Light Opacity 40}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Light 8%": {
+      "value": "{Light Opacity 50}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Dark 5": {
+      "value": "{Dark Opacity 40%}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Dark 4": {
+      "value": "{Dark Opacity 16%}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Dark 3": {
+      "value": "{Dark Opacity 8%}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Dark 2": {
+      "value": "{Dark Opacity 4%}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Dark 1": {
+      "value": "{Dark Opacity 2%}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Light 5": {
+      "value": "{Light Opacity 40%}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Light 4": {
+      "value": "{Light Opacity 16%}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Light 3": {
+      "value": "{Light Opacity 8%}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Light 2": {
+      "value": "{Light Opacity 4%}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    },
+    "Light 1": {
+      "value": "{Light Opacity 2%}",
+      "type": "color",
+      "description": "",
+      "parent": "Tokans/Light"
+    }
+  }
+}

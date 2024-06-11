@@ -1,0 +1,5 @@
+.container{
+    max-width: 80%;
+    width: 100%;
+}
+/* const p = 180 - (percent / 100) * 180; */
