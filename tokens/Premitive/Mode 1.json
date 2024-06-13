@@ -276,10 +276,9 @@
     "description": ""
   },
   "Brand-primary 60 (Base)": {
-    "value": "#70ceea",
+    "value": "#eb71e1",
     "type": "color",
-    "parent": "Premitive/Mode 1",
-    "description": ""
+    "parent": "Premitive/Mode 1"
   },
   "Brand-primary 70": {
     "value": "#5dacc3",
