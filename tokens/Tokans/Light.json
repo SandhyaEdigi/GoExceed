@@ -1,568 +1,567 @@
 {
-  "theme":"light",
   "Background": {
     "BG Layer 1": {
       "value": "{Base-white}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "BG Layer 2": {
       "value": "{Gray 20}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "BG Layer 3": {
       "value": "{Gray 30}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     }
   },
   "Text": {
     "Text Primary": {
       "value": "{Gray 100}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Text Secondary": {
       "value": "{Gray 80}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Text primary: BG": {
       "value": "{Base-white}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Text Disabled": {
       "value": "{Gray 50}",
       "type": "color",
-      "description": "",
       "parent": "Tokans/Light",
+      "description": "",
       "oldValue": "{Gray 60}"
     },
     "Text secondary: BG": {
       "value": "{Gray 40}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     }
   },
   "Button": {
     "Button Primary1 : Bg": {
       "value": "{Brand-secondary 60 (Base)}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Button Primary1 : Text": {
       "value": "{Base-white}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Button Secondary : Stroke": {
       "value": "{Brand-secondary 60 (Base)}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Button Secondary : Text": {
       "value": "{Brand-secondary 60 (Base)}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Button Tertiary : Text only": {
       "value": "{Gray 90}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Button Primary1 : Icon": {
       "value": "{Gray 10}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Button Disabled": {
       "value": "{Gray 20}",
       "type": "color",
-      "description": "",
       "parent": "Tokans/Light",
+      "description": "",
       "oldValue": "{Gray 40}"
     },
     "Button Disabled Text": {
       "value": "{Gray 50}",
       "type": "color",
-      "description": "",
       "parent": "Tokans/Light",
+      "description": "",
       "oldValue": "{Gray 60}"
     },
     "Button Primary : Hover": {
       "value": "{Brand-secondary 50}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Button Secondary : Icon": {
       "value": "{Brand-secondary 60 (Base)}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Button Secondary : Hover": {
       "value": "{Brand-secondary 80}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Button Primary : Error bg": {
       "value": "{Error 30}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Button Primary : Error text": {
       "value": "{Error 50}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Button Secondary : Error": {
       "value": "{Error 30}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Button Primary2 : Bg": {
       "value": "{Brand-primary 60 (Base)}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Button Primary2 : Text": {
       "value": "{Base-black}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Button Primary2 : Icon": {
       "value": "{Gray 90}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Button Primary2 : Hover": {
       "value": "{Brand-primary 50}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Button Gray": {
       "value": "{Gray 90}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Button Gray Text": {
       "value": "{Gray 10}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Button Gray Hover": {
       "value": "{Gray 100}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     }
   },
   "Stroke": {
     "Stroke Default": {
       "value": "{Gray 50}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Stroke Active": {
       "value": "{Brand-primary 60 (Base)}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Stroke Gray": {
       "value": "{Gray 90}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Stroke Light": {
       "value": "{Gray 40}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Stroke Default light": {
       "value": "{Gray 30}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Stroke Heavy Contrast": {
       "value": "{Gray 90}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Stroke Light Contrast": {
       "value": "{Gray 40}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     }
   },
   "Icon": {
     "Icon Primary": {
       "value": "{Gray 100}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Icon Primary : BG": {
       "value": "{Dark Opacity 4%}",
       "type": "color",
-      "description": "",
       "parent": "Tokans/Light",
+      "description": "",
       "oldValue": "{Dark Opacity 40}"
     },
     "Icon secondary": {
       "value": "{Gray 80}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Icon Secondary : BG": {
       "value": "{Dark Opacity 2%}",
       "type": "color",
-      "description": "",
       "parent": "Tokans/Light",
+      "description": "",
       "oldValue": "{Dark Opacity 50}"
     },
     "Icon Disabled": {
       "value": "{Gray 60}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     }
   },
   "States : Dropdowns & Option": {
     "Active": {
       "value": "{Brand-primary 60 (Base)}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Selected bg": {
       "value": "{Brand-primary 10}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Hover bg": {
       "value": "{Gray 20}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Active light": {
       "value": "{Brand-primary 30}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     }
   },
   "Chips": {
     "Chips Outline": {
       "value": "{Gray 30}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Chips filled": {
       "value": "{Gray 20}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     }
   },
   "Toggle,radio & checkbox": {
     "Bg": {
       "value": "{Gray 40}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Inactive": {
       "value": "{Gray 50}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Active": {
       "value": "{Brand-secondary 60 (Base)}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     }
   },
   "Informative": {
     "Error": {
       "value": "{Error 30}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Success": {
       "value": "{Success 20}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Warning": {
       "value": "{Warning 20}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Info": {
       "value": "{Info 30}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Default": {
       "value": "{Gray 80}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     }
   },
   "Alerts": {
     "Error Fill": {
       "value": "{Error 50}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Error Text & Icon": {
       "value": "{Error 30}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Success Fill": {
       "value": "{Success 50}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Success Text & Icon": {
       "value": "{Success 20}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Warning Fill": {
       "value": "{Warning 50}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Warning Text & Icon": {
       "value": "{Warning 10}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Info Fill": {
       "value": "{Info 10}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "InfoText & Icon 4": {
       "value": "{Info 50}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Primary fill": {
       "value": "{Brand-primary 20}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Primary Text & Icon": {
       "value": "{Brand-primary 80}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Gray fill": {
       "value": "{Gray 30}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Gray Text & Icon": {
       "value": "{Text.Text Primary}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     }
   },
   "Tooltip": {
     "Bg": {
       "value": "{Brand-secondary 10}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     }
   },
   "Table": {
     "Table : Pattern 2": {
       "value": "{Brand-secondary 10}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     }
   },
   "Opacity": {
     "Dark 80%": {
       "value": "{Dark Opacity 10}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Dark 60%": {
       "value": "{Dark Opacity 20}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Dark 40%": {
       "value": "{Dark Opacity 30}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Dark 20%": {
       "value": "{Dark Opacity 40}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Dark 8%": {
       "value": "{Dark Opacity 50}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Light 80%": {
       "value": "{Light Opacity 10}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Light 60%": {
       "value": "{Light Opacity 20}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Light 40%": {
       "value": "{Light Opacity 30}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Light 20%": {
       "value": "{Light Opacity 40}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Light 8%": {
       "value": "{Light Opacity 50}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Dark 5": {
       "value": "{Dark Opacity 40%}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Dark 4": {
       "value": "{Dark Opacity 16%}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Dark 3": {
       "value": "{Dark Opacity 8%}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Dark 2": {
       "value": "{Dark Opacity 4%}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Dark 1": {
       "value": "{Dark Opacity 2%}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Light 5": {
       "value": "{Light Opacity 40%}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Light 4": {
       "value": "{Light Opacity 16%}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Light 3": {
       "value": "{Light Opacity 8%}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Light 2": {
       "value": "{Light Opacity 4%}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     },
     "Light 1": {
       "value": "{Light Opacity 2%}",
       "type": "color",
-      "description": "",
-      "parent": "Tokans/Light"
+      "parent": "Tokans/Light",
+      "description": ""
     }
   }
 }
