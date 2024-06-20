@@ -252,10 +252,9 @@
     "description": ""
   },
   "Brand-primary 50": {
-    "value": "#88d6ed",
+    "value": "#Fc3ee9",
     "type": "color",
-    "parent": "Premitive/Mode 1",
-    "description": ""
+    "parent": "Premitive/Mode 1"
   },
   "Brand-primary 40": {
     "value": "#a0def1",
